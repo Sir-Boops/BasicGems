@@ -1,0 +1,16 @@
+[
+{
+  "modid": "basicgems",
+  "name": "Basic Gems",
+  "description": "A simple pickaxe mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["FarmerLava"],
+  "credits": "",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

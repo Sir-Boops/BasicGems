@@ -1,0 +1,78 @@
+itemGroup.BasicGems=Basic Gems
+
+tile.amethyst_ore.name=Amethyst Ore
+tile.sapphire_ore.name=Sapphire Ore
+tile.ruby_ore.name=Ruby Ore
+tile.fireopal_ore.name=FireOpal Ore
+tile.topaz_ore.name=Topaz Ore
+tile.pinkdiamond_ore.name=Pink Diamond Ore
+
+item.amethyst_gem.name=Amethyst
+item.sapphire_gem.name=Sapphire
+item.ruby_gem.name=Ruby
+item.fireopal_gem.name=FireOpal
+item.topaz_gem.name=Topaz
+item.pinkdiamond_gem.name=Pink Diamond
+
+item.amethyst_sword.name=Amethyst Sword
+item.sapphire_sword.name=Sapphire Sword
+item.ruby_sword.name=Ruby Sword
+item.fireopal_sword.name=FireOpal Sword
+item.topaz_sword.name=Topaz Sword
+item.pinkdiamond_sword.name= Pink Diamond Sword
+
+item.amethyst_pickaxe.name=Amethyst Pickaxe
+item.sapphire_pickaxe.name=Sapphire Pickaxe
+item.ruby_pickaxe.name=Ruby Pickaxe
+item.fireopal_pickaxe.name=FireOpal Pickaxe
+item.topaz_pickaxe.name=Topaz Pickaxe
+item.pinkdiamond_pickaxe.name= Pink Diamond Pickaxe
+
+item.amethyst_shovel.name=Amethyst Shovel
+item.sapphire_shovel.name=Sapphire Shovel
+item.ruby_shovel.name=Ruby Shovel
+item.fireopal_shovel.name=FireOpal Shovel
+item.topaz_shovel.name=Topaz Shovel
+item.pinkdiamond_shovel.name= Pink Diamond Shovel
+
+item.amethyst_axe.name=Amethyst Axe
+item.sapphire_axe.name=Sapphire Axe
+item.ruby_axe.name=Ruby Axe
+item.fireopal_axe.name=FireOpal Axe
+item.topaz_axe.name=Topaz Axe
+item.pinkdiamond_axe.name= Pink Diamond Axe
+
+item.amethyst_hoe.name=Amethyst Hoe
+item.sapphire_hoe.name=Sapphire Hoe
+item.ruby_hoe.name=Ruby Hoe
+item.fireopal_hoe.name=FireOpal Hoe
+item.topaz_hoe.name=Topaz Hoe
+item.pinkdiamond_hoe.name= Pink Diamond Hoe
+
+item.amethyst_helm.name=Amethyst Helmet
+item.sapphire_helm.name=Sapphire Helmet
+item.ruby_helm.name=Ruby Helmet
+item.fireopal_helm.name=FireOpal Helmet
+item.topaz_helm.name=Topaz Helmet
+item.pinkdiamond_helm.name= Pink Diamond Helmet
+
+item.amethyst_chest.name=Amethyst Chestplate
+item.sapphire_chest.name=Sapphire Chestplate
+item.ruby_chest.name=Ruby Chestplate
+item.fireopal_chest.name=FireOpal Chestplate
+item.topaz_chest.name=Topaz Chestplate
+item.pinkdiamond_chest.name= Pink Diamond Chestplate
+
+item.amethyst_legs.name=Amethyst Leggins
+item.sapphire_legs.name=Sapphire Leggins
+item.ruby_legs.name=Ruby Leggins
+item.fireopal_legs.name=FireOpal Leggins
+item.topaz_legs.name=Topaz Leggins
+item.pinkdiamond_legs.name= Pink Diamond Leggins
+
+item.amethyst_boots.name=Amethyst Boots
+item.sapphire_boots.name=Sapphire Boots
+item.ruby_boots.name=Ruby Boots
+item.fireopal_boots.name=FireOpal Boots
+item.topaz_boots.name=Topaz Boots
+item.pinkdiamond_boots.name= Pink Diamond Boots
