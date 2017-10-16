@@ -20,12 +20,12 @@ public class Generation implements IWorldGenerator {
 		if (world.provider.getDimension() == 0) {
 			
 			//Add the ores
-			generateOre(Block.getBlockFromName("basicgems:amethyst_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
-			generateOre(Block.getBlockFromName("basicgems:sapphire_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
-			generateOre(Block.getBlockFromName("basicgems:ruby_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
-			generateOre(Block.getBlockFromName("basicgems:fireopal_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
-			generateOre(Block.getBlockFromName("basicgems:topaz_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
-			generateOre(Block.getBlockFromName("basicgems:pinkdiamond_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
+			generateOre(Block.getBlockFromName("basicgems:amethyst_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 102, 4 + random.nextInt(4), 16);
+			generateOre(Block.getBlockFromName("basicgems:sapphire_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 58, 4 + random.nextInt(4), 12);
+			generateOre(Block.getBlockFromName("basicgems:ruby_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 48, 4 + random.nextInt(4), 10);
+			generateOre(Block.getBlockFromName("basicgems:fireopal_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 38, 4 + random.nextInt(4), 8);
+			generateOre(Block.getBlockFromName("basicgems:topaz_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 28, 4 + random.nextInt(4), 6);
+			generateOre(Block.getBlockFromName("basicgems:pinkdiamond_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 14, 4 + random.nextInt(4), 5);
 
 		}
 	}
