@@ -2,11 +2,10 @@ package me.boops.basicgems.world;
 
 import java.util.Random;
 
-import me.boops.basicgems.BlockList;
+import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraft.world.chunk.IChunkGenerator;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraftforge.fml.common.IWorldGenerator;
@@ -14,19 +13,19 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 public class Generation implements IWorldGenerator {
 
 	@Override
-	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator,
-			IChunkProvider chunkProvider) {
+	public void generate(Random random, int chunkX, int chunkZ, World world,
+			net.minecraft.world.gen.IChunkGenerator chunkGenerator, IChunkProvider chunkProviderr) {
 
 		// Check if we are in the overworld
 		if (world.provider.getDimension() == 0) {
 			
 			//Add the ores
-			generateOre(BlockList.amethyst_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
-			generateOre(BlockList.sapphire_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
-			generateOre(BlockList.ruby_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
-			generateOre(BlockList.fireopal_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
-			generateOre(BlockList.topaz_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
-			generateOre(BlockList.pinkdiamond_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
+			generateOre(Block.getBlockFromName("basicgems:amethyst_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
+			generateOre(Block.getBlockFromName("basicgems:sapphire_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
+			generateOre(Block.getBlockFromName("basicgems:ruby_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
+			generateOre(Block.getBlockFromName("basicgems:fireopal_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
+			generateOre(Block.getBlockFromName("basicgems:topaz_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
+			generateOre(Block.getBlockFromName("basicgems:pinkdiamond_ore").getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, 4 + random.nextInt(4), 500);
 
 		}
 	}
@@ -41,5 +40,4 @@ public class Generation implements IWorldGenerator {
 			generator.generate(world, random, pos);
 		}
 	}
-
 }

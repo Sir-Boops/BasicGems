@@ -11,11 +11,11 @@ import net.minecraft.block.Block;
 public class BlockList {
 	
 	//Blocks
-	public static Block amethyst_ore = new BlockAmethystOre();
-	public static Block sapphire_ore = new BlockSapphireOre();
-	public static Block ruby_ore = new BlockRubyOre();
-	public static Block fireopal_ore = new BlockFireOpalOre();
-	public static Block topaz_ore = new BlockTopazOre();
-	public static Block pinkdiamond_ore = new BlockPinkDiamondOre();
+	public Block amethyst_ore = new BlockAmethystOre();
+	public Block sapphire_ore = new BlockSapphireOre();
+	public Block ruby_ore = new BlockRubyOre();
+	public Block fireopal_ore = new BlockFireOpalOre();
+	public Block topaz_ore = new BlockTopazOre();
+	public Block pinkdiamond_ore = new BlockPinkDiamondOre();
 	
 }

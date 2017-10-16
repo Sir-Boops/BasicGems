@@ -1,11 +1,8 @@
 package me.boops.basicgems.items.tools.swords;
 
-import java.util.Random;
-
 import me.boops.basicgems.Main;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumFacing;
@@ -29,13 +26,13 @@ public class ToolFireOpalSword extends ItemSword {
 	}
 	
 	@Override
-    public EnumActionResult onItemUse(ItemStack stack, EntityPlayer playerIn, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ){
+	public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		
 		//Spawn the lightning
-		playerIn.getEntityWorld().spawnEntityInWorld(new EntityLightningBolt(playerIn.getEntityWorld(), pos.getX(), (pos.getY() + 1), pos.getZ(), false));
+		player.getEntityWorld().spawnEntity(new EntityLightningBolt(player.getEntityWorld(), pos.getX(), (pos.getY() + 1), pos.getZ(), false));
 		
 		//Damage the item
-		stack.attemptDamageItem(1, new Random());
+		player.getHeldItemMainhand().damageItem(1, player);
 		
         return EnumActionResult.PASS;
     }

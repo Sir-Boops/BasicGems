@@ -65,87 +65,87 @@ import net.minecraft.item.Item;
 public class ItemList {
 	
 	//Register Gems
-	public static Item amethyst_gem = new ItemAmethystGem();
-	public static Item sapphire_gem = new ItemSapphireGem();
-	public static Item ruby_gem = new ItemRubyGem();
-	public static Item fireopal_gem = new ItemFireOpalGem();
-	public static Item topaz_gem = new ItemTopazGem();
-	public static Item pinkdiamond_gem = new ItemPinkDiamondGem();
+	public Item amethyst_gem = new ItemAmethystGem();
+	public Item sapphire_gem = new ItemSapphireGem();
+	public Item ruby_gem = new ItemRubyGem();
+	public Item fireopal_gem = new ItemFireOpalGem();
+	public Item topaz_gem = new ItemTopazGem();
+	public Item pinkdiamond_gem = new ItemPinkDiamondGem();
 	
 	//Register Swords
-	public static Item amethyst_sword = new ToolAmethystSword();
-	public static Item sapphire_sword = new ToolSapphireSword();
-	public static Item ruby_sword = new ToolRubySword();
-	public static Item fireopal_sword = new ToolFireOpalSword();
-	public static Item topaz_sword = new ToolTopazSword();
-	public static Item pinkdiamond_sword = new ToolPinkDiamondSword();
+	public Item amethyst_sword = new ToolAmethystSword();
+	public Item sapphire_sword = new ToolSapphireSword();
+	public Item ruby_sword = new ToolRubySword();
+	public Item fireopal_sword = new ToolFireOpalSword();
+	public Item topaz_sword = new ToolTopazSword();
+	public Item pinkdiamond_sword = new ToolPinkDiamondSword();
 	
 	//Register Pickaxes
-	public static Item amethyst_pickaxe = new ToolAmethystPickaxe();
-	public static Item sapphire_pickaxe = new ToolSapphirePickaxe();
-	public static Item ruby_pickaxe = new ToolRubyPickaxe();
-	public static Item fireopal_pickaxe = new ToolFireOpalPickaxe();
-	public static Item topaz_pickaxe = new ToolTopazPickaxe();
-	public static Item pinkdiamond_pickaxe = new ToolPinkDiamondPickaxe();
+	public Item amethyst_pickaxe = new ToolAmethystPickaxe();
+	public Item sapphire_pickaxe = new ToolSapphirePickaxe();
+	public Item ruby_pickaxe = new ToolRubyPickaxe();
+	public Item fireopal_pickaxe = new ToolFireOpalPickaxe();
+	public Item topaz_pickaxe = new ToolTopazPickaxe();
+	public Item pinkdiamond_pickaxe = new ToolPinkDiamondPickaxe();
 	
 	//Register Shovel
-	public static Item amethyst_shovel = new ToolAmethystShovel();
-	public static Item sapphire_shovel = new ToolSapphireShovel();
-	public static Item ruby_shovel = new ToolRubyShovel();
-	public static Item fireopal_shovel = new ToolFireOpalShovel();
-	public static Item topaz_shovel = new ToolTopazShovel();
-	public static Item pinkdiamond_shovel = new ToolPinkDiamondShovel();
+	public Item amethyst_shovel = new ToolAmethystShovel();
+	public Item sapphire_shovel = new ToolSapphireShovel();
+	public Item ruby_shovel = new ToolRubyShovel();
+	public Item fireopal_shovel = new ToolFireOpalShovel();
+	public Item topaz_shovel = new ToolTopazShovel();
+	public Item pinkdiamond_shovel = new ToolPinkDiamondShovel();
 	
 	//Register Axe
-	public static Item amethyst_axe = new ToolAmethystAxe();
-	public static Item sapphire_axe = new ToolSapphireAxe();
-	public static Item ruby_axe = new ToolRubyAxe();
-	public static Item fireopal_axe = new ToolFireOpalAxe();
-	public static Item topaz_axe = new ToolTopazAxe();
-	public static Item pinkdiamond_axe = new ToolPinkDiamondAxe();
+	public Item amethyst_axe = new ToolAmethystAxe();
+	public Item sapphire_axe = new ToolSapphireAxe();
+	public Item ruby_axe = new ToolRubyAxe();
+	public Item fireopal_axe = new ToolFireOpalAxe();
+	public Item topaz_axe = new ToolTopazAxe();
+	public Item pinkdiamond_axe = new ToolPinkDiamondAxe();
 	
 	//Register Hoe
-	public static Item amethyst_hoe = new ToolAmethystHoe();
-	public static Item sapphire_hoe = new ToolSapphireHoe();
-	public static Item ruby_hoe = new ToolRubyHoe();
-	public static Item fireopal_hoe = new ToolFireOpalHoe();
-	public static Item topaz_hoe = new ToolTopazHoe();
-	public static Item pinkdiamond_hoe = new ToolPinkDiamondHoe();
+	public Item amethyst_hoe = new ToolAmethystHoe();
+	public Item sapphire_hoe = new ToolSapphireHoe();
+	public Item ruby_hoe = new ToolRubyHoe();
+	public Item fireopal_hoe = new ToolFireOpalHoe();
+	public Item topaz_hoe = new ToolTopazHoe();
+	public Item pinkdiamond_hoe = new ToolPinkDiamondHoe();
 	
 	//Register Amethyst Armor
-	public static Item amethyst_helm = new ArmorAmethystHelm();
-	public static Item amethyst_chest = new ArmorAmethystChest();
-	public static Item amethyst_legs = new ArmorAmethystLegs();
-	public static Item amethyst_boots = new ArmorAmethystBoots();
+	public Item amethyst_helm = new ArmorAmethystHelm();
+	public Item amethyst_chest = new ArmorAmethystChest();
+	public Item amethyst_legs = new ArmorAmethystLegs();
+	public Item amethyst_boots = new ArmorAmethystBoots();
 	
 	//Register Sapphire Armor
-	public static Item sapphire_helm = new ArmorSapphireHelm();
-	public static Item sapphire_chest = new ArmorSapphireChest();
-	public static Item sapphire_legs = new ArmorSapphireLegs();
-	public static Item sapphire_boots = new ArmorSapphireBoots();
+	public Item sapphire_helm = new ArmorSapphireHelm();
+	public Item sapphire_chest = new ArmorSapphireChest();
+	public Item sapphire_legs = new ArmorSapphireLegs();
+	public Item sapphire_boots = new ArmorSapphireBoots();
 	
 	//Register Ruby Armor
-	public static Item ruby_helm = new ArmorRubyHelm();
-	public static Item ruby_chest = new ArmorRubyChest();
-	public static Item ruby_legs = new ArmorRubyLegs();
-	public static Item ruby_boots = new ArmorRubyBoots();
+	public Item ruby_helm = new ArmorRubyHelm();
+	public Item ruby_chest = new ArmorRubyChest();
+	public Item ruby_legs = new ArmorRubyLegs();
+	public Item ruby_boots = new ArmorRubyBoots();
 	
 	//Register FireOpal Armor
-	public static Item fireopal_helm = new ArmorFireOpalHelm();
-	public static Item fireopal_chest = new ArmorFireOpalChest();
-	public static Item fireopal_legs = new ArmorFireOpalLegs();
-	public static Item fireopal_boots = new ArmorFireOpalBoots();
+	public Item fireopal_helm = new ArmorFireOpalHelm();
+	public Item fireopal_chest = new ArmorFireOpalChest();
+	public Item fireopal_legs = new ArmorFireOpalLegs();
+	public Item fireopal_boots = new ArmorFireOpalBoots();
 	
 	//Register Topaz Armor
-	public static Item topaz_helm = new ArmorTopazHelm();
-	public static Item topaz_chest = new ArmorTopazChest();
-	public static Item topaz_legs = new ArmorTopazLegs();
-	public static Item topaz_boots = new ArmorTopazBoots();
+	public Item topaz_helm = new ArmorTopazHelm();
+	public Item topaz_chest = new ArmorTopazChest();
+	public Item topaz_legs = new ArmorTopazLegs();
+	public Item topaz_boots = new ArmorTopazBoots();
 	
 	//Register Pink Diamond Armor
-	public static Item pinkdiamond_helm = new ArmorPinkDiamondHelm();
-	public static Item pinkdiamond_chest = new ArmorPinkDiamondChest();
-	public static Item pinkdiamond_legs = new ArmorPinkDiamondLegs();
-	public static Item pinkdiamond_boots = new ArmorPinkDiamondBoots();
+	public Item pinkdiamond_helm = new ArmorPinkDiamondHelm();
+	public Item pinkdiamond_chest = new ArmorPinkDiamondChest();
+	public Item pinkdiamond_legs = new ArmorPinkDiamondLegs();
+	public Item pinkdiamond_boots = new ArmorPinkDiamondBoots();
 	
 }
