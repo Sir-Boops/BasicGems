@@ -6,8 +6,10 @@ import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.relauncher.Side;
 
 @EventBusSubscriber
 public class RegisterItems {
@@ -19,7 +21,10 @@ public class RegisterItems {
     		
     		RegCache.items.get(i).setRegistryName(Main.MODID, RegCache.items.get(i).getUnlocalizedName().substring(5));
     		event.getRegistry().register(RegCache.items.get(i));
-    		ModelLoader.setCustomModelResourceLocation(RegCache.items.get(i), 0, new ModelResourceLocation(new ResourceLocation(Main.MODID, RegCache.items.get(i).getUnlocalizedName().substring(5)),"inventory"));
+    		if(FMLCommonHandler.instance().getEffectiveSide() == Side.CLIENT) {
+    			ModelLoader.setCustomModelResourceLocation(RegCache.items.get(i), 0, new ModelResourceLocation(new ResourceLocation(Main.MODID, 
+    					RegCache.items.get(i).getUnlocalizedName().substring(5)),"inventory"));
+    		}
     		
     	}
 	}
