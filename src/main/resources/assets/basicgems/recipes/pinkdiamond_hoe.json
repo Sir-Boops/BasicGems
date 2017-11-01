@@ -1,0 +1,23 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"GGA",
+		"ASA",
+		"ASA"
+	],
+	"key":{
+		"G":{
+			"item":"basicgems:pinkdiamond_gem"
+		},
+		"S":{
+			"item":"minecraft:stick"
+		},
+		"A":{
+			"item":"minecraft:air"
+		}
+	},
+	"result":{
+		"item":"basicgems:pinkdiamond_hoe",
+		"count":1
+	}
+}

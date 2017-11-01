@@ -1,0 +1,23 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"AGA",
+		"AGA",
+		"ASA"
+	],
+	"key":{
+		"G":{
+			"item":"basicgems:amethyst_gem"
+		},
+		"S":{
+			"item":"minecraft:stick"
+		},
+		"A":{
+			"item":"minecraft:air"
+		}
+	},
+	"result":{
+		"item":"basicgems:amethyst_sword",
+		"count":1
+	}
+}

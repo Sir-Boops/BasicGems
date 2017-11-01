@@ -1,0 +1,20 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"GAG",
+		"GGG",
+		"GGG"
+	],
+	"key":{
+		"G":{
+			"item":"basicgems:ruby_gem"
+		},
+		"A":{
+			"item":"minecraft:air"
+		}
+	},
+	"result":{
+		"item":"basicgems:ruby_chest",
+		"count":1
+	}
+}

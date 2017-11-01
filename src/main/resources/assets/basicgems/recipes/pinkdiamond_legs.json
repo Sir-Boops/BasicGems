@@ -1,0 +1,20 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"GGG",
+		"GAG",
+		"GAG"
+	],
+	"key":{
+		"G":{
+			"item":"basicgems:pinkdiamond_gem"
+		},
+		"A":{
+			"item":"minecraft:air"
+		}
+	},
+	"result":{
+		"item":"basicgems:pinkdiamond_legs",
+		"count":1
+	}
+}

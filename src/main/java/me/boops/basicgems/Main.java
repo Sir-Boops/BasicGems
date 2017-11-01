@@ -108,6 +108,12 @@ public class Main {
 		RegCache.items.add(itemList.sapphire_legs);
 		RegCache.items.add(itemList.sapphire_boots);
 		
+		//Register ruby
+		RegCache.items.add(itemList.ruby_helm);
+		RegCache.items.add(itemList.ruby_chest);
+		RegCache.items.add(itemList.ruby_legs);
+		RegCache.items.add(itemList.ruby_boots);
+		
 		// Register fireopel armor
 		RegCache.items.add(itemList.fireopal_helm);
 		RegCache.items.add(itemList.fireopal_chest);
